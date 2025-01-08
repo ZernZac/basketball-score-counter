@@ -38,6 +38,8 @@ function addAwayScore3(){
 }
 
 function btnReset(){
-    displayHomeScore.textContent = 0
-    displayAwayScore.textContent = 0
+    scoreHome = 0
+    scoreAway = 0
+    displayHomeScore.textContent = scoreHome
+    displayAwayScore.textContent = scoreAway
 }
