@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Happy+Monkey&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score-container">
+                <h3 class="court-title">HOME</h3>
+                <p class="score-display" id="home-score"></p>
+                <div class="btn-container">
+                    <button id="btn-score1" onclick="addHomeScore1()">+1</button>
+                    <button id="btn-score2" onclick="addHomeScore2()">+2</button>
+                    <button id="btn-score3" onclick="addHomeScore3()">+3</button>
+                </div>
+            </div>
+            <div class="score-container">
+                <h3 class="court-title">AWAY</h3>
+                <p class="score-display" id="away-score"></p>
+                <div class="btn-container">
+                    <button id="btn-score1" onclick="addAwayScore1()">+1</button>
+                    <button id="btn-score2" onclick="addAwayScore2()">+2</button>
+                    <button id="btn-score3" onclick="addAwayScore3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button id="btn-reset" onclick="btnReset()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

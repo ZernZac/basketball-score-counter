@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    flex-direction: column;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 10px 0px;
+    background-color: #1B244A;
+    width: 400px;
+    margin: auto auto;
+}
+
+.court-title{
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+.score-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-display{
+    font-size: 60px;
+    background-color: #080001;
+    color: #F94F6D;
+    border-radius: 10px;
+    padding: 10px 55px;
+    margin: 20px;
+}
+
+.btn-container button{
+    font-family: "Happy Monkey";
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 9px 10px;
+}
